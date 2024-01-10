@@ -1,0 +1,151 @@
+body, html{
+    overflow-x: hidden;
+    padding-right: 0px !important;
+}
+
+#register_section-2{
+    position: relative;
+    padding-top: 100px;
+    background: url("../Images/img2.jpg")no-repeat center;
+    background-size: cover;
+    background-color: rgba(0 0 0/0.69);
+    background-blend-mode: darken;
+}
+
+#branch select option{
+    padding: 20px 0px !important;
+}
+
+.card{
+    background: none !important;
+    border-radius: 0% !important;
+    border: 0px !important;
+}
+
+.general_information{
+    background: rgb(11 20 30) !important;
+    backdrop-filter: blur( 4px ) !important;
+    background-color: rgb(11 20 30)  !important;
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.form-outline .form-control.form-control-lg~.form-label {
+    padding-top: .7rem;
+    color: white !important;
+}
+
+.contact_details{
+    background-color: #091015 !important;
+}
+
+.register_btn{
+    border: 2px solid #091015 !important;
+    background: white !important;
+    color: #091015 !important;
+    box-shadow: none !important;
+}
+
+/* .register_btn:hover{
+    border: 2px solid #091015 !important;
+    background: white !important;
+    color: #091015 !important;
+} */
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    /* background: #a1c4fd; */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+    }
+    
+    .bg-indigo {
+    background-color: #4835d4;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+
+
+    .inputdiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        margin: 0px auto;
+        width: 350px;
+        margin-top: 300px;
+    }
+
+    .inputdiv input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 4px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .inputdiv button{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+
+    .modal-backdrop{
+        position: relative !important;
+    }
+
+    .registration_success_modal{
+        display: none !important;
+    }
+
+    .commingSoon{
+        background: url('../Images/img2.jpg'),rgba(0, 0, 0, 0.505);
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .spinnerDiv{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 1000000000000;
+        background: rgba(0, 0, 0, 0.352);
+        backdrop-filter: blur(10px);
+    }
+    ::-webkit-inner-spin-button{
+        display: none;
+    }
